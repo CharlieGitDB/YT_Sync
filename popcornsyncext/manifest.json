@@ -1,0 +1,11 @@
+{
+  "name":"Popcorn Sync",
+  "description":"Sync videos with friends.",
+  "version":"1.0",
+  "manifest_version":2,
+  "content_scripts":[{
+    "matches": ["http://www.netflix.com/*", "https://www.netflix.com/*", "http://www.youtube.com/watch?v=*", "https://www.youtube.com/watch?v=*"],
+    "js": ["socket.io.js", "jquery.min.js", "script.min.js"],
+    "css": ["style.css"]
+  }]
+}

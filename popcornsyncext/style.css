@@ -1,0 +1,67 @@
+.youtubeContainerPop {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 450px;
+  background: white;
+  box-shadow: 0 0 8px black;
+  border: 1px solid black;
+  z-index: 1000000;
+}
+.closeBtn {
+  position: absolute;
+  right: -1px;
+  top: -17px;
+  border: 1px solid black;
+  background: white;
+  padding: 0px 3px;
+  cursor: pointer;
+}
+.closeBtn:hover {
+  background: black;
+  color: white;
+}
+.closeBtn:active {
+  background: white;
+  color: black;
+}
+.buttonContainerPop {
+  margin: auto;
+  text-align: center;
+}
+.menuBtn {
+  background: #215F1D;
+  padding: 8px;
+  width: 45%;
+  color: white;
+  margin: 5px;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+.menuBtnActive {
+  background: #3D8CD2;
+  transform: scale(1);
+}
+.menuBtn:hover {
+  transform: scale(1.04);
+}
+.contentContainerPop {
+  text-align: center;
+  padding: 10px;
+}
+.startSync {
+  background: red;
+  width: 35%;
+}
+.sessionIdTxt {
+  width: 35%;
+  text-align: center;
+}
+.copyToClip {
+  background: red;
+  width: 35%;
+}
+.joinSessionBtn {
+  background: red;
+  width: 35%;
+}
